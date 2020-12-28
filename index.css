@@ -518,5 +518,11 @@ li:hover {
     font-size: 60px;
   }
 
+  .img_container{
+
+    width: 100%;
+    margin-left: 30%;
+  }
+
 
 }
