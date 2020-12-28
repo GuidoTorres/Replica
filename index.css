@@ -289,10 +289,6 @@ li:hover {
 
 @media screen and (max-width: 1200px) {
 
-    body{
-
-        overflow-x: hidden;
-    }
 
   .img_13 {
     width: 205px;
