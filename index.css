@@ -294,7 +294,7 @@ li:hover {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1200px) and(max-width: 1800px) {
   
   .img_banner {
     width: 90%;
@@ -565,7 +565,8 @@ li:hover {
   }
   .seeAll {
     width: 150px;
-    margin-left: 24vh;
+    margin-top: 28vh;
+    margin-left: 58vw;
   }
 
 }
