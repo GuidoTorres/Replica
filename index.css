@@ -107,7 +107,7 @@ li:hover {
   width: 360px;
   padding-left: 0;
   height: 130px;
-  margin-top: 20%;
+  margin-top: 10%;
   margin-left: 16%;
   text-align: center;
   font-size: 4rem;
@@ -125,7 +125,7 @@ li:hover {
 }
 
 .btn1 {
-  margin-top: 6rem;
+  margin-top: 4rem;
   margin-left: 8.5%;
   width: 130px;
   height: 40px;
@@ -255,7 +255,7 @@ li:hover {
   font-size: 14px;
   font-weight: bold;
   position: absolute;
-  margin-left: 78%;
+  margin-left: 92vh;
   margin-top: 14%;
   width: 185px;
   height: 40px;
@@ -295,6 +295,7 @@ li:hover {
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1200px) {
+  
   .img_banner {
     width: 90%;
     margin-left: 5%;
@@ -373,7 +374,7 @@ li:hover {
 
   .banner {
     flex-direction: column;
-    height: 95%;
+    height: 95vh;
     width: 100%;
   }
 
@@ -395,11 +396,11 @@ li:hover {
   .banner_text {
     height: 180px;
     width: 400px;
-    margin: 2vh auto;
+    margin-top: -2vh;
   }
 
   .btn1 {
-    margin: 32vh auto;
+    margin-top: 28vh;
     z-index: 4;
   }
 
@@ -413,8 +414,10 @@ li:hover {
 
   .title {
     margin-left: 15%;
+    font-size: 14px;
   }
   .subtitle {
+    font-size: 35px;
     margin-left: 15%;
   }
   .msg_scroll {
@@ -440,6 +443,7 @@ li:hover {
   }
   .linea_der{
     width: 50%;
+    height: 30vh;
     margin-top: 10px;
   }
 
@@ -459,18 +463,19 @@ li:hover {
 
 @media screen and (max-width: 900px) {
   .banner_text {
-    margin: 4vh auto;
+    margin-top: 1vh;
   }
 
   .btn1 {
-    margin: 32vh auto;
+
+    margin-top: 29vh;
   }
 
   .img14{
       display: none;
   }
   .seeAll {
-    margin-left: 68%;
+    margin-left: 62vw;
     margin-top: 20%;
   }
 
@@ -478,13 +483,23 @@ li:hover {
 
 @media screen and (max-width: 700px) {
   .banner_text {
-    width: 60%;
-    margin: 8vh auto;
+    width: 50%;
+    margin-top: 6vh;
   }
 
   .btn1 {
-    margin: 35vh auto;
+    margin-top: 33vh;
   }
+
+  .banner_text{
+
+    font-size: 50px;
+  }
+
+  .text_nro{
+    font-size: 60px;
+  }
+
   .seeAll {
     margin-left: 60%;
     margin-top: 25%;
@@ -492,21 +507,24 @@ li:hover {
 }
 
 @media screen and (max-width: 600px) {
-  .titulo {
-    display: flex;
-    justify-content: center;
+  .banner{
+    height: 95vh;
   }
-
   .banner_text {
-    width: 60%;
-    font-size: 40px;
+    width: 58%;
+    margin-top: 10vh;
+    font-size: 50px;
+  }
+  .btn1{
+      margin-top: 32.5vh;
+  }
+  .msg_scroll{
+
+    margin-top: 2rem;
   }
 
   .text_nro {
     font-size: 60px;
-  }
-  .btn1{
-      margin: 40%;
   }
 
   .img15{
@@ -524,41 +542,72 @@ li:hover {
     margin-left: 30%;
   }
   .seeAll {
-    margin-left: 52%;
-    margin-top: 30%;
+    margin-left: 55vw;
+    margin-top: 18vh;
+  }
+
+  .subtitle{
+
+    font-size: 30px;
+  }
+
+}
+
+@media screen and (max-width: 500px){
+  .banner_text{
+
+    margin-top: 10vh;
+    width: 70vw;
+  }
+  .btn1{
+    margin-top: 32.5vh;
+  }
+  .seeAll {
+    width: 150px;
+    margin-left: 24vh;
   }
 
 }
 
 @media screen and (max-width: 400px) {
-  .titulo {
-    display: flex;
-    justify-content: center;
+  .banner{
+    height: 95vh;
   }
 
   .banner_text {
-    width: 80%;
-    font-size: 50px;
+    margin-top: 11vh;
+    width: 65vw;
+    /* border: 1px solid red; */
+    font-size: 40px;
   }
   .btn1{
-      margin-top: 55%;
+      margin-top: 30vh;
+  }
+  .title{
+    font-size: 12px;
+    margin-top: 50%;
+  }
+
+  .subtitle{
+
+    font-size: 24px;
   }
 
   .msg_scroll{
-    margin-top: 1.5rem;
+    margin-top: 1.8rem;
     margin-left: 55%;
     font-size: 14px;
     font-weight: bold;
   }
 
   .text_nro {
-    font-size: 60px;
+    font-size: 50px;
   }
 
   .img_container{
 
     width: 100%;
-    margin-left: 10%;
+    margin-left: 18%;
   }
 
   .footer p {
@@ -572,10 +621,12 @@ li:hover {
   }
 
   .seeAll {
-    margin-left: 52%;
-    margin-top: 45%;
+    width: 150px;
+    margin-left: 22vh;
+    margin-top: 28%;
   }
 
 
 
 }
+
