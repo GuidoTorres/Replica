@@ -345,6 +345,7 @@ li:hover {
   .banner {
     flex-direction: column;
     height: 100vh;
+    width: 100vw;
   }
 
   .contenedor_izq {
