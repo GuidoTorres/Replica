@@ -129,7 +129,7 @@ li:hover {
 }
 
 .img_izq {
-  background-image: url("/Imagenes/image\ 12.png");
+  background-image: url("/Imagenes/image12.png");
   height: 7.5rem;
   width: 8rem;
   margin-left: 7.5rem;
@@ -139,7 +139,7 @@ li:hover {
 }
 
 .img_der {
-  background-image: url("/Imagenes/image\ 11.png");
+  background-image: url("/Imagenes/image11.png");
   height: 15rem;
   width: 10rem;
   margin-left: 30%;
