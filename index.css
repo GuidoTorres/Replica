@@ -6,10 +6,11 @@
   padding: 0;
 }
 
-body,
-html {
-  height: 100%;
-}
+
+body{
+  overflow-x: hidden;
+
+} 
 
 /* INICIO HEADER */
 
@@ -18,7 +19,7 @@ header {
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 8%;
+  padding: 35px 8%;
   position: absolute;
 }
 
@@ -30,7 +31,7 @@ li,
 a {
   font-family: "raleway", sans-serif;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 12px;
   text-decoration: none;
   font-style: normal;
   color: #fff;
@@ -89,7 +90,7 @@ li:hover {
   height: 100%;
   margin-top: 5%;
 }
-.imagenes {
+.img_banner {
   display: flex;
   height: 40%;
   align-items: flex-end;
@@ -103,7 +104,8 @@ li:hover {
 .banner_text {
   color: white;
   font-family: "raleway", sans-serif;
-  width: 350px;
+  width: 360px;
+  padding-left: 0;
   height: 130px;
   margin-top: 20%;
   margin-left: 16%;
@@ -112,21 +114,25 @@ li:hover {
   position: relative;
   font-smooth: never;
   -webkit-font-smoothing: none;
+  text-align: left;
+  
+  
 }
+
 .text_nro {
   font-size: 75px;
   font-weight: normal;
 }
 
 .btn1 {
-  margin-top: 3rem;
-  margin-left: 8%;
-  width: 120px;
-  height: 35px;
+  margin-top: 6rem;
+  margin-left: 8.5%;
+  width: 130px;
+  height: 40px;
   background-color: #ffffff;
   font-family: "raleway", sans-serif;
   font-size: 12px;
-  font-weight: bold;
+  font-weight:bolder;
   border: none;
   position: absolute;
   outline: 0;
@@ -167,7 +173,6 @@ li:hover {
   flex-direction: column;
 }
 
-
 .linea_izq {
   display: flex;
   flex-direction: column;
@@ -189,8 +194,8 @@ li:hover {
 }
 
 .msg_scroll {
-  margin-top: 1rem;
-  margin-left: 36%;
+  margin-top: 1.2rem;
+  margin-left: 37%;
   height: 50px;
   position: absolute;
   font-family: "raleway", sans-serif;
@@ -202,7 +207,7 @@ li:hover {
   -webkit-font-smoothing: none;
 }
 .title {
-  margin-top: 6rem;
+  margin-top: 10rem;
   margin-left: 32%;
   font-family: "raleway", sans-serif;
   font-size: 10px;
@@ -222,6 +227,7 @@ li:hover {
 .img_container {
   display: flex;
   padding: 1rem;
+  margin-top: 3rem;
   margin-left: 29%;
   justify-content:space-between;
   width: 85vw;
@@ -249,11 +255,11 @@ li:hover {
   font-size: 14px;
   font-weight: bold;
   position: absolute;
-  margin-left: 41.5%;
-  margin-top: -20%;
+  margin-left: 78%;
+  margin-top: 14%;
   width: 185px;
-  background-color: #eeeef0;
   height: 40px;
+  background-color: #eeeef0;
   font-family: "raleway", sans-serif;
   border: 2px solid #0f0f13;
 }
@@ -262,6 +268,7 @@ li:hover {
   background-color: #0f0f13;
   color: white;
 }
+
 
 /* FIN CONTENIDO */
 
@@ -288,7 +295,7 @@ li:hover {
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1200px) {
-  .imagenes {
+  .img_banner {
     width: 90%;
     margin-left: 5%;
   }
@@ -301,8 +308,8 @@ li:hover {
     margin-left: 35%;
   }
   .seeAll {
-    margin-top: -15%;
-    margin-left: 36%;
+    margin-left: 74%;
+    margin-top: 14%;
   }
 
   .img_container {
@@ -441,6 +448,11 @@ li:hover {
     margin-left: 12%;
   }
 
+  .seeAll {
+    margin-left: 70%;
+    margin-top: 18%;
+  }
+
 
 
 }
@@ -457,6 +469,10 @@ li:hover {
   .img14{
       display: none;
   }
+  .seeAll {
+    margin-left: 68%;
+    margin-top: 20%;
+  }
 
 }
 
@@ -468,6 +484,10 @@ li:hover {
 
   .btn1 {
     margin: 35vh auto;
+  }
+  .seeAll {
+    margin-left: 60%;
+    margin-top: 25%;
   }
 }
 
@@ -502,6 +522,10 @@ li:hover {
 
     width: 100%;
     margin-left: 30%;
+  }
+  .seeAll {
+    margin-left: 52%;
+    margin-top: 30%;
   }
 
 }
@@ -545,6 +569,11 @@ li:hover {
   .social_media li{
 
     padding-left: 0.1rem;
+  }
+
+  .seeAll {
+    margin-left: 52%;
+    margin-top: 45%;
   }
 
 
