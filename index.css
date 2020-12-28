@@ -1,0 +1,461 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap"); */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* INICIO HEADER */
+
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 8%;
+  position: absolute;
+}
+
+nav {
+  margin-left: -140px;
+}
+
+li,
+a {
+  font-family: "raleway", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  font-style: normal;
+  color: #fff;
+  display: inline;
+  padding: 8px;
+  font-smooth: never;
+  -webkit-font-smoothing: none;
+}
+.compras {
+  cursor: pointer;
+}
+.compras:hover {
+  opacity: 0.4;
+}
+
+li:hover {
+  opacity: 0.4;
+}
+
+.logo {
+  cursor: pointer;
+  height: 39px;
+  width: 159px;
+}
+
+.nav_links {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.BarMenu {
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+
+/* FIN HEADER */
+
+/* INICIO BANNER */
+.banner {
+  display: flex;
+  z-index: 1;
+  width: 100%;
+}
+
+.contenedor_izq {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  width: 100%;
+  background-color: #0f0f13;
+}
+
+.titulo {
+  height: 60%;
+}
+.imagenes {
+  display: flex;
+  height: 40%;
+  align-items: flex-end;
+}
+
+.contenedor_der {
+  height: 100vh;
+  width: 100%;
+}
+
+.banner_text {
+  color: white;
+  font-family: "raleway", sans-serif;
+  width: 350px;
+  height: 130px;
+  margin-top: 20%;
+  margin-left: 16%;
+  text-align: center;
+  font-size: 4rem;
+  position: relative;
+  font-smooth: never;
+  -webkit-font-smoothing: none;
+}
+
+.btn1 {
+  margin-top: 3rem;
+  margin-left: 9%;
+  width: 120px;
+  height: 35px;
+  background-color: #ffffff;
+  font-family: "raleway", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  border: none;
+  position: absolute;
+  outline: 0;
+}
+
+.btn1:hover {
+  background-color: #0f0f13;
+  color: white;
+  border: 1px solid white;
+}
+
+.img_izq {
+  background-image: url("/Imagenes/image\ 12.png");
+  height: 7.5rem;
+  width: 8rem;
+  margin-left: 7.5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+}
+
+.img_der {
+  background-image: url("/Imagenes/image\ 11.png");
+  height: 15rem;
+  width: 10rem;
+  margin-left: 30%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+}
+
+/* FIN BANNER */
+
+/* INICIO CONTENIDO */
+.content {
+  display: flex;
+  margin-top: -5%;
+  align-items: flex-end;
+}
+
+.linea_izq {
+    display: flex;
+    flex-direction: column;
+  background-color: #f7f7fa;
+  width: 33vw;
+}
+
+.linea_der {
+  width: 100vw;
+  height: 40vh;
+  background-color: #f7f7fa;
+
+  margin-top: 30%;
+  z-index: -1;
+}
+
+.div_texto {
+  height: 40px;
+}
+
+.msg_scroll {
+  margin-top: 2rem;
+  margin-left: 490px;
+  height: 50px;
+  position: absolute;
+  font-family: "raleway", sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-smooth: never;
+  -webkit-font-smoothing: none;
+}
+.title {
+  margin-top: 10rem;
+  margin-left: 9rem;
+  font-family: "raleway", sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  color: #818191;
+}
+
+.subtitle {
+  margin-top: 1rem;
+  margin-left: 9rem;
+  font-family: "raleway", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #0f0f13;
+}
+
+.img_container {
+  display: flex;
+  z-index: 3;
+  margin-left: 34%;
+  
+}
+
+.img13 {
+  width: 295px;
+  height: 480px;
+  z-index: 3;
+}
+
+.img13:hover {
+  opacity: 0.8;
+}
+
+.img14 {
+  margin-left: 5rem;
+  width: 295px;
+  height: 480px;
+  z-index: 3;
+}
+
+.img14:hover {
+  opacity: 0.8;
+}
+.img15 {
+  margin-left: 5rem;
+  width: 295px;
+  height: 480px;
+  z-index: 4;
+}
+
+.img15:hover {
+  opacity: 0.8;
+}
+.seeAll {
+  position: absolute;
+  margin-bottom: 40%;
+  margin-left: 74%;
+  font-size: 14px;
+  font-weight: bold;
+  width: 185px;
+  background-color: #eeeef0;
+  height: 40px;
+  font-family: "raleway", sans-serif;
+  border: 2px solid #0f0f13;
+}
+
+.seeAll:hover {
+  background-color: #0f0f13;
+  color: white;
+}
+
+/* FIN CONTENIDO */
+
+/* INICIO FOOTER */
+
+.footer {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  font-family: "raleway", sans-serif;
+}
+
+.contact {
+  display: flex;
+  margin-right: 10px;
+  width: 200px;
+  font-size: 12px;
+  justify-content: space-between;
+}
+
+/* FIN FOOTER */
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1200px){
+
+    .img_13{
+        width: 205px;
+        height: 300px;
+
+    }
+
+    .imagenes{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .img_izq{
+
+        margin-left: 5rem;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    overflow-x: hidden;
+  }
+  .nav_links {
+    display: none;
+  }
+  .compras {
+    display: none;
+  }
+  .logo {
+    z-index: 11;
+  }
+
+  .nav_links.show {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background: #0f0f13;
+    top: 20;
+    left: 0;
+    z-index: 10;
+    line-height: 40px;
+    padding: 120px;
+    font-size: 20rem;
+    font-weight: bolder;
+  }
+  .BarMenu {
+    display: block;
+    z-index: 11;
+  }
+
+  .banner {
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .contenedor_izq {
+    height: 50%;
+    justify-content: center;
+  }
+
+  .contenedor_der {
+    height: 50%;
+    z-index: 2;
+  }
+
+  .titulo{
+
+    text-align: center;
+  }
+
+  .banner_text {
+    height: 180px;
+    width: 400px;
+    margin: 80px auto;
+
+  }
+
+  .cont_btn1{
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn1 {
+    
+    margin-top: -100px;
+    z-index: 4;
+  }
+
+  .img_izq {
+    display: none;
+  }
+
+  .img_der {
+    display: none;
+  }
+
+  .title {
+    margin-left: 30px;
+  }
+  .subtitle {
+    margin-left: 30px;
+  }
+
+  .img13 {
+    width: 220px;
+    height: 350px;
+  }
+
+  .img13:hover {
+  
+    z-index: 12;
+    transition: 0.8s;
+
+  }
+
+  .img14 {
+    width: 220px;
+    height: 350px;
+  }
+
+  .img14:hover {
+    z-index: 12;
+    transition: 0.8s;
+
+  }
+
+  .img15 {
+    width: 220px;
+    height: 350px;
+  }
+
+  .img15:hover {
+    z-index: 12;
+    transition: 0.8s;
+
+  }
+
+  .seeAll {
+    margin-bottom: 80%;
+    margin-right: 40%;
+  }
+  .contact {
+    display: none;
+  }
+
+  .content{
+
+    width: 100vw;
+  }
+
+  .img_container{
+
+    margin-left: 20%;
+    
+  }
+}
+
+
+/* @media screen and (max-width: 900px){
+
+    .img_container{
+
+        margin-left: 2rem;
+        
+      }
+
+} */
