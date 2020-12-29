@@ -234,12 +234,12 @@ li:hover {
   opacity: 0.8;
 }
 .seeAll {
-  font-size: 1.2vw;
+  font-size: 1.8vw;
   font-weight: bold;
   position: absolute;
-  margin-left: 82vw;
-  margin-top: 29vh;
-  width: 10vw;
+  margin-left: 76vw;
+  margin-top: 25vh;
+  width: 15vw;
   height: 7vh;
   background-color: #eeeef0;
   font-family: "raleway", sans-serif;
@@ -393,7 +393,7 @@ li:hover {
   .msg_scroll {
     margin-top: 12vh;
     margin-left: 63vw;
-    font-size: 15px;
+    font-size: 2vw;
   }
   .contact {
     display: none;
@@ -424,6 +424,13 @@ li:hover {
     width: 30vw;
     height: 60vh;
     padding: 2vw;
+  }
+  .seeAll{
+
+    margin-top: 17vh;
+    margin-left: 72vw;
+    width: 20vw;
+    font-size: 2vw;
   }
 
 }
@@ -472,7 +479,7 @@ li:hover {
   }
 
   .btn1{
-    margin-top: 4vh;
+    margin-top: 5vh;
   }
 
   .seeAll{
