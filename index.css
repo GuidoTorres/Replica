@@ -464,14 +464,27 @@ li:hover {
     text-align: center;
     font-size: 8vw;
   }
+  .title {
+    margin-top: 18vh;
+    margin-left: 7.5vw;
+    font-size: 2vw;
+    
+  }
 
   .seeAll{
 
-    width: 20vw;
-    margin-top: 26vh;
-    margin-left: 75vw;
-    font-size: 3vw;
+    width: 25vw;
+    height: 6vh;
+    margin-top: 18vh;
+    margin-left: 68vw;
+    font-size: 4vw;
 
+  }
+
+  .msg_scroll{
+    margin-top: 12vh;
+    margin-left: 58vw;
+    font-size: 3.5vw;
   }
   
 }
@@ -498,11 +511,19 @@ li:hover {
   .msg_scroll{
     margin-top: 12vh;
     margin-left: 58vw;
+    font-size: 3vw;
+  }
+  .title {
+    margin-top: 18vh;
+    margin-left: 7.5vw;
+    font-size: 2vw;
+    
   }
 
   .seeAll{
     width: 35vw;
-    margin-top: 26vh;
+    height: 5vh;
+    margin-top: 18vh;
     margin-left: 56vw;
     font-size: 3vw;
   }
@@ -557,7 +578,7 @@ li:hover {
 
   .seeAll{
     font-size: 4vw;
-    margin-top: 20vh;
+    margin-top: 18vh;
   }
 
   .msg_scroll{
