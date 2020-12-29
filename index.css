@@ -648,7 +648,9 @@ li:hover {
 
 }
 
-@media screen and (orientation: landscape) {
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape) {
   .nav_links.show {
     display: flex;
     flex-direction: column;
@@ -661,7 +663,7 @@ li:hover {
     left: 0;
     z-index: 10;
     line-height: 40px;
-    padding: 120px;
+    padding: 90px;
     font-size: 10vh;
     font-weight: bolder;
   }
