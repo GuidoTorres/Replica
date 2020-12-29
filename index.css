@@ -114,7 +114,7 @@ li:hover {
   margin-top: 8vh;
   margin-left: 8.5%;
   width: 9vw;
-  height: 6vh;
+  height: 3vw;
   background-color: #ffffff;
   font-family: "raleway", sans-serif;
   font-size: 1vw;
@@ -350,10 +350,15 @@ li:hover {
   }
 
   .banner_text{
-    height: 15vh;
-    width: 28vw;
-    margin: 1vh auto;
+    height: 20vh;
+    width: 35vw;
+    margin: 0 auto;
     text-align: center;
+    font-size: 6vw;
+  }
+
+  .text_nro{
+    font-size: 7.5vw;
   }
 
   .cont_btn{
@@ -367,12 +372,10 @@ li:hover {
 
   .btn1 {
     
-    width: 15vw;
-    height: 6vh;
-    font-size: 1.8vw;
-    margin: 4vh auto ;
-    
-    z-index: 4;
+    width: 20vw;
+    height: 4vw;
+    margin: 5vw auto ;
+    font-size: 1.5vw;
   }
 
   .img_izq {
@@ -393,9 +396,9 @@ li:hover {
     margin-left: 7.5vw;
   }
   .msg_scroll {
-    margin-top: 12vh;
-    margin-left: 63vw;
-    font-size: 2vw;
+    margin-top: 11vh;
+    margin-left: 65vw;
+    font-size: 1.5vw;
   }
   .contact {
     display: none;
@@ -441,20 +444,17 @@ li:hover {
 @media screen and (max-width: 900px){
 
   .banner_text{
-    height: 15vh;
-    width: 35vw;
-    margin: 1vh auto;
+    height: 20vh;
+    width: 38vw;
+    margin: 2vh auto;
     text-align: center;
     font-size: 6vw;
 
   }
   .btn1{
-    width: 15vw;
-    height: 6vh;
-    font-size: 1.8vw;
-    margin: 6vh auto ;
-    
-    z-index: 4;
+    width: 20vw;
+    margin-top: 5vw;
+    font-size: 2vw;
   }
   .text_nro{
 
@@ -471,8 +471,8 @@ li:hover {
 
   .msg_scroll{
 
-    font-size: 1.8vw;
-    margin-top: 8.5vw;
+    font-size: 2vw;
+    margin-top: 13.2vw;
   }
 
 }
@@ -480,9 +480,9 @@ li:hover {
 @media screen and (max-width: 700px){
 
   .banner_text{
-    height: 15vh;
-    width: 42vw;
-    margin: 5vh auto;
+    height: 20vh;
+    width: 40vw;
+    margin: 4vh auto;
     text-align: center;
     font-size: 7vw;
 
@@ -500,14 +500,16 @@ li:hover {
   }
 
   .btn1{
-    margin-top: 7vh;
+    width: 20vw;
+    margin-top: 6vw;
+    font-size: 2.2vw;
   }
 
   .seeAll{
 
     width: 25vw;
     height: 6vh;
-    margin-top: 22vh;
+    margin-top: 21vw;
     margin-left: 68vw;
     font-size: 2.5vw;
 
@@ -516,7 +518,7 @@ li:hover {
   .msg_scroll{
     margin-top: 12vh;
     margin-left: 65vw;
-    font-size: 1.8vw;
+    font-size: 2vw;
   }
   
 }
@@ -526,26 +528,26 @@ li:hover {
 
   .btn1{
 
-    margin-top: 5vh;
-    width: 25vw;
+    width: 20vw;
+    margin-top: 9vw;
     font-size: 2.5vw;
   }
 
   .banner_text{
-    height: 15vh;
-    width: 45vw;
-    margin: 5vh auto;
+    height: 20vh;
+    width: 50vw;
+    margin: 6vh auto;
     text-align: center;
-    font-size: 7vw;
+    font-size: 9vw;
   }
 
   .text_nro{
-    font-size: 9vw;
+    font-size: 10vw;
   }
   .msg_scroll{
-    margin-top: 12vh;
+    margin-top: 11.4vh;
     margin-left: 59vw;
-    font-size: 2.5vw;
+    font-size: 2.9vw;
   }
   .title {
     margin-top: 18vh;
@@ -586,19 +588,26 @@ li:hover {
 
 @media screen and (max-width: 400px){
 
+  .banner {
+
+    height: 92vh;
+  }
   .banner_text{
-    height: 15vh;
-    width: 50vw;
+    height: 12vh;
+    width: 60vw;
     margin: 8vh auto;
     text-align: center;
-    font-size: 8vw;
-    border: 1px solid green;
+    font-size: 10vw;
 
+  }
+  .text_nro{
+    font-size: 11vw;
   }
 
   .btn1{
-
-    margin-top: 8vh;
+    width: 35vw;
+    margin-top: 12vw;
+    font-size: 3.5vw;
   }
 
   .img14{
@@ -622,7 +631,7 @@ li:hover {
   }
 
   .msg_scroll{
-    margin-top: 12vh;
+    margin-top: 11vh;
     margin-left: 58vw;
     font-size: 3vw;
   }
