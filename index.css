@@ -690,8 +690,15 @@ li:hover {
 
   .seeAll{
 
-    margin-top: 24vw;
+    margin-top: 17vw;
     height: 4vw;
+  }
+
+  .title{
+    margin-top: 12vw;
+  }
+  .img_container{
+    margin-top: 2vw;
   }
 
 }
