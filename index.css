@@ -9,9 +9,7 @@
 
 body{
   overflow-x: hidden;
-
 } 
-
 /* INICIO HEADER */
 
 header {
@@ -19,7 +17,7 @@ header {
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  padding: 35px 8%;
+  padding: 35px 7vw;
   position: absolute;
 }
 
@@ -31,7 +29,7 @@ li,
 a {
   font-family: "raleway", sans-serif;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 1vw;
   text-decoration: none;
   font-style: normal;
   color: #fff;
@@ -46,22 +44,18 @@ a {
 .compras:hover {
   opacity: 0.4;
 }
-
 li:hover {
   opacity: 0.4;
 }
-
 .logo {
   cursor: pointer;
   height: 39px;
   width: 159px;
 }
-
 .nav_links {
   display: inline-block;
   padding: 0px 20px;
 }
-
 .BarMenu {
   font-size: 25px;
   color: white;
@@ -75,9 +69,8 @@ li:hover {
 .banner {
   display: flex;
   z-index: 1;
-  width: 100%;
+  width: 100vw;
 }
-
 .contenedor_izq {
   display: flex;
   flex-direction: column;
@@ -85,53 +78,46 @@ li:hover {
   width: 100%;
   background-color: #0f0f13;
 }
-
 .titulo {
-  height: 100%;
-  margin-top: 5%;
+  height: 100vh;
+  margin-top: 6vh;
 }
 .img_banner {
   display: flex;
   height: 40%;
   align-items: flex-end;
 }
-
 .contenedor_der {
   height: 100vh;
   width: 100%;
 }
-
 .banner_text {
   color: white;
   font-family: "raleway", sans-serif;
-  width: 360px;
-  padding-left: 0;
-  height: 130px;
-  margin-top: 10%;
-  margin-left: 16%;
-  text-align: center;
-  font-size: 4rem;
+  width: 26vw;
+  height: 20vh;
+  margin-top: 10vh;
+  margin-left: 8vw;
+  font-size: 4.5vw;
   position: relative;
   font-smooth: never;
   -webkit-font-smoothing: none;
   text-align: left;
-  
-  
 }
 
 .text_nro {
-  font-size: 75px;
+  font-size: 6vw;
   font-weight: normal;
 }
 
 .btn1 {
-  margin-top: 4rem;
+  margin-top: 10vh;
   margin-left: 8.5%;
-  width: 130px;
-  height: 40px;
+  width: 10vw;
+  height: 7vh;
   background-color: #ffffff;
   font-family: "raleway", sans-serif;
-  font-size: 12px;
+  font-size: 1.3vw;
   font-weight:bolder;
   border: none;
   position: absolute;
@@ -148,7 +134,7 @@ li:hover {
   background-image: url("Imagenes/image12.png");
   height: 7.5rem;
   width: 8rem;
-  margin-left: 7.5rem;
+  margin-left: 8.5vw;
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
@@ -158,7 +144,7 @@ li:hover {
   background-image: url("Imagenes/image11.png");
   height: 15rem;
   width: 10rem;
-  margin-left: 30%;
+  margin-left: 13.3vw;
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
@@ -169,7 +155,7 @@ li:hover {
 /* INICIO CONTENIDO */
 .content {
   display: flex;
-  margin-top: -5%;
+  margin-top: -10vh;
   flex-direction: column;
 }
 
@@ -177,38 +163,34 @@ li:hover {
   display: flex;
   flex-direction: column;
   background-color: #f7f7fa;
-  width: 33vw;
+  width: 31.2vw;
 }
 
 .linea_der {
   width: 100vw;
-  height: 40vh;
+  height: 45vh;
   background-color: #f7f7fa;
 
   margin-top: -20%;
   z-index: -1;
 }
 
-.div_texto {
-  height: 40px;
-}
-
 .msg_scroll {
-  margin-top: 1.2rem;
-  margin-left: 37%;
-  height: 50px;
+  margin-top: 3vh;
+  margin-left: 35vw;
   position: absolute;
   font-family: "raleway", sans-serif;
   font-style: normal;
-  font-size: 12px;
+  font-size: 1vw;
   text-transform: uppercase;
   font-weight: bolder;
   font-smooth: never;
   -webkit-font-smoothing: none;
 }
+
 .title {
   margin-top: 10rem;
-  margin-left: 32%;
+  margin-left: 28%;
   font-family: "raleway", sans-serif;
   font-size: 10px;
   font-weight: bold;
@@ -217,7 +199,7 @@ li:hover {
 
 .subtitle {
   margin-top: 1rem;
-  margin-left: 32%;
+  margin-left: 28%;
   font-family: "raleway", sans-serif;
   font-size: 30px;
   font-weight: bold;
@@ -228,7 +210,7 @@ li:hover {
   display: flex;
   padding: 1rem;
   margin-top: 3rem;
-  margin-left: 29%;
+  margin-left: 25%;
   justify-content:space-between;
   width: 85vw;
 }
@@ -252,13 +234,13 @@ li:hover {
   opacity: 0.8;
 }
 .seeAll {
-  font-size: 14px;
+  font-size: 1.2vw;
   font-weight: bold;
   position: absolute;
-  margin-left: 80vw;
-  margin-top: 25vh;
-  width: 185px;
-  height: 40px;
+  margin-left: 82vw;
+  margin-top: 29vh;
+  width: 10vw;
+  height: 7vh;
   background-color: #eeeef0;
   font-family: "raleway", sans-serif;
   border: 2px solid #0f0f13;
@@ -294,53 +276,6 @@ li:hover {
 
 /* MEDIA QUERIES */
 
-@media screen and (min-width: 1200px) and(max-width: 1800px) {
-  
-  .img_banner {
-    width: 90%;
-    margin-left: 5%;
-    
-  }
-
-  .img_izq {
-    margin-left: 5rem;
-  }
-  .msg_scroll {
-    margin-top: 0.5rem;
-    margin-left: 35%;
-  }
-  .seeAll {
-    margin-left: 74%;
-    margin-top: 14%;
-  }
-
-  .img_container {
-    margin-left: 21%;
-  }
-
-  .linea_der {
-    width: 100vw;
-    height: 50vh;
-    background-color: #f7f7fa;
-
-    margin-top: -10%;
-    z-index: -1;
-  }
-  .title {
-    margin-left: 25%;
-  }
-  .subtitle {
-    margin-left: 25%;
-  }
-  .img13, .img14, .img15{
-
-    width: 255px;
-    height: 450px;
-
-  }
-
-}
-
 @media screen and (max-width: 1024px) {
   .nav_links {
     display: none;
@@ -365,8 +300,14 @@ li:hover {
     z-index: 10;
     line-height: 40px;
     padding: 120px;
-    font-size: 20rem;
+    font-size: 10vh;
     font-weight: bolder;
+  }
+
+  li a{
+
+    font-size: 3vw;
+    text-align: center;
   }
   .BarMenu {
     display: block;
@@ -377,31 +318,58 @@ li:hover {
     flex-direction: column;
     height: 95vh;
     width: 100%;
-  }
-
-  .contenedor_izq {
-    height: 50%;
     justify-content: center;
   }
 
+  .contenedor_izq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%;
+    justify-content: center;
+  }
   .contenedor_der {
     height: 50%;
     z-index: 2;
   }
-
   .titulo {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    margin-top: 8vh;
+  }
+  .cont_banner{
+    display: flex;
+    align-content: center;
+    height: 20vh;
+    width: 80vw;
+    padding: 1vw;
   }
 
-  .banner_text {
-    height: 180px;
-    width: 400px;
-    margin-top: -2vh;
+  .banner_text{
+    height: 15vh;
+    width: 28vw;
+    margin: 1vh auto;
+    text-align: center;
+  }
+
+  .cont_btn{
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    width: 80vw;
+    align-content: center;
+    padding: 1vw;
   }
 
   .btn1 {
-    margin-top: 28vh;
+    
+    width: 15vw;
+    height: 6vh;
+    font-size: 1.8vw;
+    margin: 6vh auto 4.5vh;
+    
     z-index: 4;
   }
 
@@ -414,16 +382,17 @@ li:hover {
   }
 
   .title {
-    margin-left: 15%;
-    font-size: 14px;
+    margin-left: 7.5vw;
+    font-size: 2vw;
+    
   }
   .subtitle {
-    font-size: 35px;
-    margin-left: 15%;
+    font-size: 5vw;
+    margin-left: 7.5vw;
   }
   .msg_scroll {
-    margin-top: 6%;
-    margin-left: 60%;
+    margin-top: 12vh;
+    margin-left: 63vw;
     font-size: 15px;
   }
   .contact {
@@ -437,198 +406,125 @@ li:hover {
     align-items: flex-end;
   }
 
-  
   .linea_izq {
-    /* background-color: black; */
-    width: 50%;
+    width: 50vw;
   }
   .linea_der{
-    width: 50%;
+    width: 50vw;
     height: 30vh;
     margin-top: 10px;
   }
 
   .img_container{
-
-    margin-left: 12%;
+    margin-left: 3vw;
   }
 
-  .seeAll {
-    margin-left: 70%;
-    margin-top: 18%;
-  }
+  .img13, .img14, .img15{
 
-
-
-}
-
-@media screen and (max-width: 900px) {
-  .banner_text {
-    margin-top: 1vh;
-  }
-
-  .btn1 {
-
-    margin-top: 29vh;
-  }
-
-  .img14{
-      display: none;
-  }
-  .seeAll {
-    margin-left: 62vw;
-    margin-top: 20%;
+    width: 30vw;
+    height: 60vh;
+    padding: 2vw;
   }
 
 }
 
-@media screen and (max-width: 700px) {
-  .banner_text {
-    width: 50%;
-    margin-top: 6vh;
-  }
 
-  .btn1 {
-    margin-top: 33vh;
-  }
+@media screen and (max-width: 900px){
 
   .banner_text{
+    height: 16vh;
+    width: 40vw;
+    text-align: center;
+    font-size: 7vw;
+  }
+  .btn1{
+    margin-top: 9vh;
+    width: 20vw;
+    font-size: 2.5vw;
+  }
+  .text_nro{
 
-    font-size: 50px;
+    font-size: 9vw;
+  }
+
+  .seeAll{
+
+    width: 11vw;
+    font-size: 1.8vw;
+  }
+
+}
+
+@media screen and (max-width: 700px){
+
+  .banner_text{
+    height: 15vh;
+    width: 55vw;
+    margin: 5vh auto;
+    text-align: center;
+    font-size: 10vw;
+  }
+
+  .seeAll{
+
+    width: 14vw;
+    margin-left: 80vw;
+    font-size: 2vw;
+
+  }
+  
+}
+
+
+@media screen and (max-width: 550px){
+
+  .banner_text{
+    height: 15vh;
+    width: 56vw;
+    margin: 5vh auto;
+    text-align: center;
+    font-size: 10vw;
   }
 
   .text_nro{
-    font-size: 60px;
-  }
-
-  .seeAll {
-    margin-left: 60%;
-    margin-top: 25%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .banner{
-    height: 95vh;
-  }
-  .banner_text {
-    width: 58%;
-    margin-top: 10vh;
-    font-size: 50px;
-  }
-  .btn1{
-      margin-top: 32.5vh;
+    font-size: 12vw;
   }
   .msg_scroll{
-
-    margin-top: 2rem;
+    margin-top: 11.3vh;
+    margin-left: 58vw;
   }
 
-  .text_nro {
-    font-size: 60px;
+  .seeAll{
+    width: 35vw;
+    margin-top: 26vh;
+    margin-left: 56vw;
+    font-size: 3vw;
   }
+  .img13, .img14 {
 
+    width: 43vw;
+    height: 50vh;
+    padding: 1vw;
+  }
   .img15{
 
     display: none;
   }
+
+}
+
+@media screen and (max-width: 450px ){
+
+  .img14{
+
+    display: none;
+  }
+
   .img13{
 
-        width: 300px;
+    width: 85vw;
+    height: 90vh;
   }
-
-  .img_container{
-
-    width: 100%;
-    margin-left: 30%;
-  }
-  .seeAll {
-    margin-left: 55vw;
-    margin-top: 18vh;
-  }
-
-  .subtitle{
-
-    font-size: 30px;
-  }
-
-}
-
-@media screen and (max-width: 500px){
-  .banner_text{
-
-    margin-top: 10vh;
-    width: 70vw;
-  }
-  .btn1{
-    margin-top: 32.5vh;
-  }
-  .seeAll {
-    width: 150px;
-    margin-top: 28vh;
-    margin-left: 58vw;
-  }
-
-}
-
-@media screen and (max-width: 400px) {
-  .banner{
-    height: 95vh;
-  }
-
-  .banner_text {
-    margin-top: 11vh;
-    width: 65vw;
-    /* border: 1px solid red; */
-    font-size: 40px;
-  }
-  .btn1{
-      margin-top: 30vh;
-  }
-  .title{
-    font-size: 10px;
-    margin-top: 50%;
-  }
-
-  .subtitle{
-
-    font-size: 22px;
-  }
-
-  .msg_scroll{
-    margin-top: 1.8rem;
-    margin-left: 55%;
-    font-size: 14px;
-    font-weight: bold;
-  }
-
-  .text_nro {
-    font-size: 50px;
-  }
-
-  .img_container{
-
-    width: 100%;
-    margin-left: 18%;
-  }
-
-  .footer p {
-
-    font-size: 0.8rem;
-  }
-
-  .social_media li{
-
-    padding-left: 0.1rem;
-  }
-
-  .seeAll {
-    width: 150px;
-    margin-left: 30vh;
-    margin-top: 28%;
-  }
-
 
 
 }
-
