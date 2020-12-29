@@ -453,7 +453,6 @@ li:hover {
   }
   .btn1{
     width: 20vw;
-    height: 5vw;
     margin-top: 5vw;
     font-size: 2vw;
   }
@@ -502,7 +501,6 @@ li:hover {
 
   .btn1{
     width: 20vw;
-    height: 6vw;
     margin-top: 6vw;
     font-size: 2.2vw;
   }
@@ -531,7 +529,6 @@ li:hover {
   .btn1{
 
     width: 20vw;
-    height: 7vw;
     margin-top: 9vw;
     font-size: 2.5vw;
   }
@@ -591,10 +588,7 @@ li:hover {
 
 @media screen and (max-width: 400px){
 
-  .banner {
 
-    height: 92vh;
-  }
   .banner_text{
     height: 12vh;
     width: 60vw;
@@ -609,7 +603,6 @@ li:hover {
 
   .btn1{
     width: 35vw;
-    height: 9vw;
     margin-top: 12vw;
     font-size: 3.5vw;
   }
