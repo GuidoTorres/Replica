@@ -648,8 +648,8 @@ li:hover {
 
 }
 
-@media only screen and (min-device-width: 400px) 
-                   and (max-device-width: 850px) 
+@media only screen and (min-device-width: 360px) 
+                   and (max-device-width:  2000px) 
                    and (orientation: landscape) {
   .nav_links.show {
     display: flex;
@@ -662,7 +662,7 @@ li:hover {
     top: 0;
     left: 0;
     z-index: 10;
-    padding: 10vw;
+    padding: 8vw;
     font-size: 6vh;
     font-weight: bolder;
   }
