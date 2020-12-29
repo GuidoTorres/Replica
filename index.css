@@ -651,23 +651,41 @@ li:hover {
 @media screen and (orientation: landscape) {
 
   .banner_text{
-    margin: 4vw ;
+    margin-top: 15vh;
+    margin-left: 21vw;
     width: 30vw;
     font-size: 5vw;
+  }
+
+
+  .banner{
+
+    flex-direction: row;
+  }
+
+  .contenedor_izq{
+
+    width: 50%;
+    height: 95vh;
+  }
+
+  .contenedor_der{
+
+    width: 50%;
+    height: 92vh;
   }
 
   .text_nro{
     font-size: 6vw;
   }
   .msg_scroll{
-    margin-top: 12vh;
+    margin-top: 9vh;
   }
 
   .btn1{
-    margin-top: 0;
-    margin-left: 42vw;
-    width: 15vw;
-    height: 4vw;
+    
+    margin-top: 15vw;
+    margin-right: 12vw;
   }
 
   .seeAll{
