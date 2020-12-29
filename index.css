@@ -528,7 +528,8 @@ li:hover {
 
   .btn1{
 
-    width: 20vw;
+    width: 30vw;
+    height: 9vw;
     margin-top: 9vw;
     font-size: 2.5vw;
   }
@@ -644,5 +645,35 @@ li:hover {
     padding: 0.2vw;
   }
 
+
+}
+
+@media screen and (orientation: landscape) {
+
+  .banner_text{
+    margin: 4vw ;
+    width: 30vw;
+    font-size: 5vw;
+  }
+
+  .text_nro{
+    font-size: 6vw;
+  }
+  .msg_scroll{
+    margin-top: 12vh;
+  }
+
+  .btn1{
+    margin-top: 0;
+    margin-left: 42vw;
+    width: 15vw;
+    height: 4vw;
+  }
+
+  .seeAll{
+
+    margin-top: 24vw;
+    height: 4vw;
+  }
 
 }
