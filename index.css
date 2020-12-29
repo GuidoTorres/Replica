@@ -94,11 +94,11 @@ li:hover {
 .banner_text {
   color: white;
   font-family: "raleway", sans-serif;
-  width: 26vw;
+  width: 30vw;
   height: 20vh;
-  margin-top: 10vh;
+  margin-top: 14vh;
   margin-left: 8vw;
-  font-size: 4.5vw;
+  font-size: 5vw;
   position: relative;
   font-smooth: never;
   -webkit-font-smoothing: none;
@@ -106,18 +106,18 @@ li:hover {
 }
 
 .text_nro {
-  font-size: 6vw;
+  font-size: 5vw;
   font-weight: normal;
 }
 
 .btn1 {
-  margin-top: 10vh;
+  margin-top: 8vh;
   margin-left: 8.5%;
-  width: 10vw;
-  height: 7vh;
+  width: 9vw;
+  height: 6vh;
   background-color: #ffffff;
   font-family: "raleway", sans-serif;
-  font-size: 1.3vw;
+  font-size: 1vw;
   font-weight:bolder;
   border: none;
   position: absolute;
@@ -176,7 +176,7 @@ li:hover {
 }
 
 .msg_scroll {
-  margin-top: 3vh;
+  margin-top: 2vh;
   margin-left: 35vw;
   position: absolute;
   font-family: "raleway", sans-serif;
@@ -192,7 +192,7 @@ li:hover {
   margin-top: 10rem;
   margin-left: 28%;
   font-family: "raleway", sans-serif;
-  font-size: 10px;
+  font-size: 1vw;
   font-weight: bold;
   color: #818191;
 }
@@ -201,7 +201,7 @@ li:hover {
   margin-top: 1rem;
   margin-left: 28%;
   font-family: "raleway", sans-serif;
-  font-size: 30px;
+  font-size: 3vw;
   font-weight: bold;
   color: #0f0f13;
 }
@@ -210,7 +210,7 @@ li:hover {
   display: flex;
   padding: 1rem;
   margin-top: 3rem;
-  margin-left: 25%;
+  margin-left: 24.5%;
   justify-content:space-between;
   width: 85vw;
 }
@@ -234,16 +234,18 @@ li:hover {
   opacity: 0.8;
 }
 .seeAll {
-  font-size: 1.8vw;
+  font-size: 1vw;
   font-weight: bold;
   position: absolute;
-  margin-left: 76vw;
-  margin-top: 25vh;
-  width: 15vw;
-  height: 7vh;
-  background-color: #eeeef0;
+  margin-left: 80vw;
+  margin-top: 29vh;
+  width: 12vw;
+  height: 6vh;
+  background-color: white;
   font-family: "raleway", sans-serif;
   border: 2px solid #0f0f13;
+  border: 1p solid red;
+
 }
 
 .seeAll:hover {
@@ -368,7 +370,7 @@ li:hover {
     width: 15vw;
     height: 6vh;
     font-size: 1.8vw;
-    margin: 6vh auto 4.5vh;
+    margin: 4vh auto ;
     
     z-index: 4;
   }
@@ -427,7 +429,7 @@ li:hover {
   }
   .seeAll{
 
-    margin-top: 17vh;
+    margin-top: 30vh;
     margin-left: 72vw;
     width: 20vw;
     font-size: 2vw;
@@ -440,16 +442,19 @@ li:hover {
 
   .banner_text{
     height: 15vh;
-    width: 30vw;
-    margin: 2vh auto;
+    width: 35vw;
+    margin: 1vh auto;
     text-align: center;
-    font-size: 5vw;
+    font-size: 6vw;
 
   }
   .btn1{
-    margin-top: 6vh;
-    width: 18vw;
-    font-size: 2vw;
+    width: 15vw;
+    height: 6vh;
+    font-size: 1.8vw;
+    margin: 6vh auto ;
+    
+    z-index: 4;
   }
   .text_nro{
 
@@ -458,8 +463,16 @@ li:hover {
 
   .seeAll{
 
-    width: 11vw;
+    width: 25vw;
+    font-size: 2vw;
+    margin-top: 31vh;
+    margin-left: 68vw;
+  }
+
+  .msg_scroll{
+
     font-size: 1.8vw;
+    margin-top: 8.5vw;
   }
 
 }
@@ -468,7 +481,7 @@ li:hover {
 
   .banner_text{
     height: 15vh;
-    width: 45vw;
+    width: 42vw;
     margin: 5vh auto;
     text-align: center;
     font-size: 7vw;
@@ -494,16 +507,16 @@ li:hover {
 
     width: 25vw;
     height: 6vh;
-    margin-top: 18vh;
+    margin-top: 22vh;
     margin-left: 68vw;
-    font-size: 4vw;
+    font-size: 2.5vw;
 
   }
 
   .msg_scroll{
     margin-top: 12vh;
-    margin-left: 58vw;
-    font-size: 3.5vw;
+    margin-left: 65vw;
+    font-size: 1.8vw;
   }
   
 }
@@ -513,7 +526,9 @@ li:hover {
 
   .btn1{
 
-    margin-top: 6vh;
+    margin-top: 5vh;
+    width: 25vw;
+    font-size: 2.5vw;
   }
 
   .banner_text{
@@ -522,8 +537,6 @@ li:hover {
     margin: 5vh auto;
     text-align: center;
     font-size: 7vw;
-    border: 1px solid yellow;
-
   }
 
   .text_nro{
@@ -531,8 +544,8 @@ li:hover {
   }
   .msg_scroll{
     margin-top: 12vh;
-    margin-left: 58vw;
-    font-size: 3vw;
+    margin-left: 59vw;
+    font-size: 2.5vw;
   }
   .title {
     margin-top: 18vh;
@@ -544,7 +557,7 @@ li:hover {
   .seeAll{
     width: 35vw;
     height: 5vh;
-    margin-top: 18vh;
+    margin-top: 21vh;
     margin-left: 56vw;
     font-size: 3vw;
   }
