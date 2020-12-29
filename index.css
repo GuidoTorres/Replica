@@ -522,6 +522,7 @@ li:hover {
     margin: 5vh auto;
     text-align: center;
     font-size: 7vw;
+    border: 1px solid yellow;
 
   }
 
@@ -570,17 +571,21 @@ li:hover {
 
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 400px){
 
+  .banner_text{
+    height: 15vh;
+    width: 50vw;
+    margin: 8vh auto;
+    text-align: center;
+    font-size: 8vw;
+    border: 1px solid green;
 
-
-  .banner{
-    height: 95vh;
   }
 
   .btn1{
 
-    margin-top: 5vh;
+    margin-top: 8vh;
   }
 
   .img14{
@@ -600,7 +605,7 @@ li:hover {
 
   .seeAll{
     font-size: 4vw;
-    margin-top: 18vh;
+    margin-top: 20vh;
   }
 
   .msg_scroll{
