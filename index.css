@@ -459,16 +459,20 @@ li:hover {
 
   .banner_text{
     height: 15vh;
-    width: 50vw;
+    width: 60vw;
     margin: 5vh auto;
     text-align: center;
-    font-size: 8vw;
+    font-size: 10vw;
   }
   .title {
     margin-top: 18vh;
     margin-left: 7.5vw;
     font-size: 2vw;
     
+  }
+
+  .btn1{
+    margin-top: 4vh;
   }
 
   .seeAll{
