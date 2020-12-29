@@ -521,6 +521,10 @@ li:hover {
 
 @media screen and (max-width: 380px ){
 
+  .banner{
+    height: 95vh;
+  }
+
   .btn1{
 
     margin-top: 2vh;
@@ -544,6 +548,12 @@ li:hover {
   .seeAll{
     font-size: 4vw;
     margin-top: 20vh;
+  }
+
+  .msg_scroll{
+    margin-top: 12vh;
+    margin-left: 58vw;
+    font-size: 3vw;
   }
 
 
