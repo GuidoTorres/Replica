@@ -516,6 +516,16 @@ li:hover {
 
     display: none;
   }
+  .footer{
+
+    font-size: 4vw;
+  }
+
+  .social_media li{
+
+    padding: 0.2vw;
+  }
+
 
 }
 
